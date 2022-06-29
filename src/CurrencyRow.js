@@ -6,7 +6,7 @@ export default function CurrencyRow(props) {
     )
 
     return (
-        <div>
+        <div className="currency-row">
             <input type="number" className="currency-input" value={amount === undefined ? 0 : amount} onChange={onChangeAmount}/>
             <select className="currency-select" value={selected} onChange={onChangeCurrency}>
                 {optionsDropdown}

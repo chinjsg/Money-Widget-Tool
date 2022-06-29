@@ -24,7 +24,12 @@ body {
     margin-bottom: .5rem;
 }
 
-.currency-input {
+.currency-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.currency-input, .tip-input {
     border: 1px solid #333;
     border-radius: 0.3em;
     padding: 0.25rem;
@@ -44,6 +49,79 @@ body {
 .equals {
     font-weight: bold;
     font-size: 2rem;
+}
+
+.tip-input {
+    width: 11.45em;
+}
+
+
+.tip-percentage {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+.tip-percentage > button {
+    padding: 3px 5px 3px 5px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.button-default {
+    background-color: white;
+    /* grid-area: btn; */
+}
+
+.button-selected {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button-custom {
+    grid-column: span 2;
+}
+
+.tip-input-custom {
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 0.3em;
+    height: 2rem;
+    width: 7em;
+    font-size: 1em;
+    text-indent: 5px;
+    grid-column: span 2;
+}
+
+span {
+    border-bottom: 1px dotted black;
+}
+
+.tip-summary {
+    margin-top: 1.8rem;
+    font-size: 1.2em;
+}
+
+.tax-input {
+    font-size: 1em;
+    border: 1px solid lightgray;
+    border-radius: 0.3em;
+    padding-right: 2px;
+    width: 5em;
+    text-align: right;
+}
+
+.tip-summary > p {
+    text-align: right;
+}
+
+.tip-summary > p > span {
+    display: inline-block;
+    width: 5em;
+    font-weight: bold;
 }
 
 input::-webkit-inner-spin-button {
