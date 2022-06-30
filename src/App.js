@@ -1,6 +1,6 @@
 import './App.css';
-import CurrencyConverter from './CurrencyConverter';
-import TipCalculator from './TipCalculator'
+import CurrencyConverter from './components/CurrencyConverter';
+import TipCalculator from './components/TipCalculator'
 
 function App() {
     return (
