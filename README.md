@@ -2,8 +2,8 @@
 
 ## Implemented Features
 
-* ### Currency Converter
-* ### Tip Calculator
+* Currency Converter
+* Tip Calculator
 
 
 ## Available Scripts
