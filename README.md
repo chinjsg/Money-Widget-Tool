@@ -1,11 +1,9 @@
 # Money Widget Tool
 
-## Widgets
+## Implemented Features
 
-Implemented features
-
-### Currency Converter
-### Tip Calculator
+* ### Currency Converter
+* ### Tip Calculator
 
 
 ## Available Scripts
